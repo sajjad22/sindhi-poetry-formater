@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    font-family: "Lateef", sans-serif;
+}
+h1{
+    text-align: center;
+  }
+h2{
+  text-align: center;
+}
+table.poem  {
+  direction: rtl;
+  margin: auto;
+  width: auto;
+}
+
+table.poem td {
+	padding-left: 3ex;
+	padding-right: 3ex;
+	text-align: justify;
+	text-align-last: justify;
+	-moz-text-align-last: justify;
+	-webkit-text-align-last: justify;
+    font-size: 2em;
+}
+table.poem{border-collapse:separate; border-spacing:50px 0;margin-left:auto;margin-right:auto; margin-bottom:20px;}
+table.poem tr td{padding-left:0;padding-right:0; border:0;}
